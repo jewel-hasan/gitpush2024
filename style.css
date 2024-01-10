@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: gainsboro;
+}
+
+nav{
+width: auto;
+height: 100px;
+background-color: aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul{
+	float:left ;
+	
+}
+nav ul li{
+float:left ;
+padding: 10px 20px;
+list-style: none;
+position: relative;
+}
+nav ul li a{
+	padding: 15px 25px;
+	display: block;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:tomato;
+	background-color: gray;
+	border-radius: 10px;
+	}
+	nav ul li ul{
+		display: none;
+		position: absolute;
+		padding: 5px 10px;
+	}
+	nav ul li:hover ul{
+		display: block;
+	}
+	
+	nav ul li ul li:hover{
+		background-color: gray;
+		border-radius: 10px;
+	}
